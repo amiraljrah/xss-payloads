@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<animateTransform attributeName="transform"
+onbegin="alert('XSS via SVG')"
+dur="1s"
+repeatCount="indefinite"/>
+</svg>
